@@ -1,4 +1,4 @@
-'''Flask App to process post requests from logreader.py
+'''Flask App to process post requests from cloudlog_reader.py
 and display events.'''
 
 import os
