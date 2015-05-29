@@ -1,5 +1,5 @@
 '''Flask App to process post requests from logreader.py
-   and display events.'''
+and display events.'''
 
 import os
 import pymongo
