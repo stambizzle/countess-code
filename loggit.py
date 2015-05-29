@@ -9,7 +9,7 @@ def catch_errors(data, conn):
 
     # these are upper level keys that shouls be present for every every event
     info = {}
-    info['date'] = datetime.datetime.utcnow() #uncaughts do not include timestamp
+    info['date'] = datetime.datetime.utcnow() #errors do not include timestamp
     info['filename'] = data['filename']
     info['host_name'] = data['host_name']
     if data.has_key('line_number'):
